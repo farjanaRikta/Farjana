@@ -1,0 +1,633 @@
+body {
+    margin: 0px;
+
+}
+
+
+
+/* Navigation Section for all Page */
+
+
+
+.navigation {
+
+    background-color: rgb(184, 182, 194);
+}
+
+.navsection {
+
+    background-color: #412323;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+.navsection img {
+    width: 30%;
+    height: 80%;
+    padding-top: 10px;
+
+}
+
+.navsection a {
+    margin-top: 30px;
+
+    font-weight: bold;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    width: 45%;
+
+
+    background-color: rgb(207, 194, 192);
+}
+
+
+
+/* Home Page */
+
+.mainhomesection {
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.section1 {
+    margin-top: 20px;
+    padding-top: 250px;
+    color: #fff;
+    text-align: center;
+    background-image: url('./img/IMG-20231026-WA0011.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+
+}
+
+.section1 h1 {
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.section1 img {
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 1200px;
+    height: 400px;
+}
+
+.section2 {
+    font-size: x-large;
+    background-color: #5f3c3c;
+    margin: 40px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.section2 img {
+    width: 75%;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.button:hover {
+    background-color: #2980b9;
+
+}
+
+.section3 {
+    font-size: x-large;
+    margin: 40px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgba(31, 4, 30, 0.767);
+
+}
+
+.section3 img {
+    width: 75%;
+}
+
+.footer {
+
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    background-color: rgb(77, 80, 72);
+}
+
+/* About */
+.mainaboutsection {
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+.aboutsection1 {
+    margin-top: 10px;
+    background-image: url("img/IMG-20231026-WA0017.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    border: 2px solid rgba(18, 18, 19, 0.041);
+
+
+}
+
+.aboutnavigation {
+    font-size: xx-large;
+    margin-top: 100px;
+    margin-left: 30px;
+    color: antiquewhite;
+
+
+}
+
+.aboutnavigation li a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.aboutsection2 {
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px;
+    padding: 60px;
+}
+
+
+.aboutsection3 input {
+    width: 200px;
+    font-size: medium;
+
+    border-radius: 5px;
+    height: 25px;
+}
+
+/* Photo */
+.photoarticle {
+    margin-top: 40px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+}
+
+.photosection1 img {
+
+    margin: 10px 40px;
+    width: 50%;
+}
+
+.photosection1 {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.photodetails {
+
+    margin: 10px;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.contactsection1 {
+    font-size: 20px;
+}
+
+.contbtn {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+
+.section1details button {
+    margin-top: 40px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #3498db;
+
+    color: #fff;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+}
+
+.button:hover {
+    background-color: #2980b9;
+
+}
+
+
+.card {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-left: 30px;
+    text-align: center;
+    font-family: arial;
+    padding: 60px;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+#userclientsection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.clientsection button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+
+
+#clientsection a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.clientsection button:hover,
+#clientsection a:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+/* Location Page*/
+.locasection1 {
+    display: block;
+    margin-top: 40px;
+    padding: 30px;
+    background-image: url('./img/IMG-20231026-WA0020.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+
+
+}
+
+.location {
+
+
+    font-size: 16px;
+    color: hsla(225, 12%, 93%, 0.836);
+    padding-left: 20px;
+    padding-top: 0px;
+    margin: 10px 1px;
+    background-image: url("./img/IMG-20231026-WA0011.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    font-size: xx-large;
+    font-weight: bold;
+
+
+}
+
+
+
+
+/* Contact Page */
+.contactanimation {
+    margin-top: 80px;
+    padding-top: 40px;
+    color: rgb(11, 121, 97);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    background-color: #151515;
+    width: 100%;
+
+
+}
+
+.contasection {
+    margin: 10px;
+}
+
+#contactemailicon {
+    padding-right: 10px;
+}
+
+.contactsection1 {
+    margin-left: 10px;
+    padding-left: 15px;
+}
+
+.contactsection2 {
+    padding-right: 20px;
+}
+
+
+
+.circle1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid #fe444425;
+    border-top: 3px solid red;
+    animation: ani 3s linear infinite;
+
+}
+
+.circle2 {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid #fee84422;
+    border-top: 3px solid yellow;
+    animation: ani 2s linear infinite;
+    background-image: url("./img/IMG-20231026-WA0010.jpg");
+
+}
+
+#contarticlenth {
+    height: 100px;
+}
+
+@keyframes ani {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/* Responsive for Pc vs Phone */
+@media (min-width: 300px) and (max-width: 1024px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+
+
+    }
+
+
+    .navigation {
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .navsection {
+
+        background-color: #412323;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+
+    }
+
+    .navsection img {
+        padding-top: 0px;
+        width: 60%;
+        height: 80%;
+    }
+
+    .navsection a {
+        display: inline;
+        font-weight: bold;
+
+        color: #fff;
+        font-size: 15px;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0px;
+
+    }
+
+    .navigation a:hover {
+        width: 60%;
+        height: 40%;
+        background-color: rgb(207, 194, 192);
+    }
+
+
+    .mainaboutsection {
+        margin-top: 60px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .section1 {
+        margin-top: 50px;
+        padding-top: 30px;
+    }
+
+    .section2 {
+        display: inline-block;
+    }
+
+    .section2 img {
+        margin-top: 10px;
+    }
+
+    .section3 {
+        display: inline-block;
+    }
+
+    .aboutsection2 {
+        display: inline-block;
+        align-items: center;
+        margin-left: 10px;
+        width: 85%;
+    }
+
+    .aboutsection2 img {
+        width: 80%;
+    }
+
+    .aboutsection3 {
+        margin-left: 25px;
+    }
+
+    .section1details {
+        padding-bottom: 10px;
+    }
+
+    #userclientsection {
+        display: inline-block;
+    }
+
+    .animation {
+        display: inline-block;
+        width: 100%;
+        margin: 10px;
+
+
+    }
+
+    .locasection1 {
+        margin-top: 90px;
+    }
+
+    .location {
+        background-size: 75%;
+    }
+
+    .locationiframe {
+        width: 70%;
+        height: 80%;
+
+    }
+
+
+
+    .contactanimation {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+
+
+
+
+    }
+
+    .contactsection2 {
+        margin: 20px;
+        padding: 50px;
+
+    }
+
+
+    /* Photo Page */
+    .photoarticle {
+        margin-top: 80px;
+        padding-top: 40px;
+    }
+
+    .photosection1 {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 1025px) {}
+
+.sectionbody {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+    width: 350px;
+    padding: 20px;
+}
+
+.login-box h2 {
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 14px;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+
+.forgot-password {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #1877f2;
+    cursor: pointer;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
